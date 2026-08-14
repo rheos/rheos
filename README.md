@@ -1,16 +1,20 @@
-## Hi there 👋
+# Robin Goodwin
 
-<!--
-**rheos/rheos** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a full-stack developer and the founder of [Novadiem Studio](https://novadiem.com). We build production web applications, AI systems and the infrastructure that makes them reliable.
 
-Here are some ideas to get you started:
+I've worked in software for more than 25 years, from the original MyFonts.com team through modern SaaS, mobile products, developer tools and agentic systems. I usually work across the whole stack: architecture, data models, APIs, interfaces, deployment and operations.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Current work
+
+- [The Bureau](https://github.com/Novadiem-Studio/bureau): Novadiem's internal agentic engineering system, with isolated specialists, durable run state and independent review. [Case study](https://novadiem.com/work-bureau)
+- [M.O.T.](https://github.com/rheos/mot): A personal operations tracker that turns incoming signals into durable tickets, searchable history and agent-accessible tools.
+- [gsc-mcp](https://github.com/rheos/gsc-mcp): A read-only MCP server for Google Search Console.
+- [Nutrifax](https://novadiem.com/work-nutrifax): Production software for generating Canadian nutrition labels from government data.
+
+## Working stack
+
+Python, TypeScript, Ruby, Next.js, React Native, FastAPI, Rails, PostgreSQL, SQLite, Docker, AWS and Linux.
+
+## Work with Novadiem
+
+[See our work](https://novadiem.com/work) or [start a conversation](https://novadiem.com/contact).
