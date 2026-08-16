@@ -14,8 +14,8 @@ I've worked in software for more than 25 years, from the original MyFonts.com te
 
 ## Working stack
 
-Python, TypeScript, Ruby, Next.js, React Native, FastAPI, Rails, PostgreSQL, SQLite, Docker, AWS and Linux.
+Python, TypeScript, Ruby, Next.js, React Native, FastAPI, Rails, MySQL, PostgreSQL, SQLite, Docker, AWS and Linux.
 
-## Work with Novadiem
+### Work with Novadiem
 
 [See our work](https://novadiem.com/work) or [start a conversation](https://novadiem.com/contact).
