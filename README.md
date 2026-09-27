@@ -10,7 +10,7 @@ I've worked in software for more than 25 years, including as the first developer
 
 A framework for agent-assisted work, with durable jobs, module-owned records and permission-aware memory. Agents access it through scoped tools. In active development: the core and Recallatron memory module are implemented; other product modules are still stubs.
 
-[Code, architecture and status](https://github.com/rheos/rheostream)
+[Code and status](https://github.com/rheos/rheostream) · [Architecture tour](https://github.com/rheos/rheostream/blob/main/docs/architecture/code-tour.md)
 
 ### The Bureau
 
