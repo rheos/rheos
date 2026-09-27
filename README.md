@@ -16,7 +16,7 @@ A framework for agent-assisted work, with durable jobs, module-owned records and
 
 The engineering workflow I use across studio projects. Specialists work in separate contexts, reviewers examine their output independently, and interrupted work resumes from saved state and artifacts. Used internally; not packaged as a self-service product.
 
-[Code and workflow](https://github.com/Novadiem-Studio/bureau) · [Case study](https://novadiem.com/work-bureau)
+[Code and workflow](https://github.com/Novadiem-Studio/bureau) · [Review tour](https://github.com/Novadiem-Studio/bureau/blob/main/docs/checkpoint-review-tour.md) · [Case study](https://novadiem.com/work-bureau)
 
 ### Nutrifax
 
