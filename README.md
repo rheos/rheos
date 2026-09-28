@@ -1,20 +1,20 @@
 # Robin Goodwin
 
-I'm a senior full-stack developer and the founder of [Novadiem Studio](https://novadiem.com), based in British Columbia, Canada. I build web applications, developer tools and systems that let people work with AI agents.
+I'm a senior full-stack developer based in British Columbia, Canada, and the founder of [Novadiem Studio](https://novadiem.com). I build web applications and developer tools, including systems for working with AI agents.
 
-I've worked in software for more than 25 years, including as the first developer on MyFonts.com. I work across architecture, implementation and operations. My recent projects focus on keeping records reliable, making decisions traceable, and giving agents explicit limits on what they can do.
+I've worked in software for more than 25 years and was the first developer on MyFonts.com. I design systems, write code and keep them running. My recent agent projects save records and decisions in files or databases, with explicit limits on what agents can do.
 
 ## Selected work
 
 ### rheoStream
 
-A framework for agent-assisted work, with durable jobs, module-owned records and permission-aware memory. Agents access it through scoped tools. In active development: the core and Recallatron memory module are implemented; other product modules are still stubs.
+A framework for agent-assisted work. It stores jobs and module-owned records in Postgres. Scoped tools and memory permissions limit what agents can access. The core and Recallatron memory module are implemented; other product modules are still stubs.
 
 [Code and status](https://github.com/rheos/rheostream) · [Architecture tour](https://github.com/rheos/rheostream/blob/main/docs/architecture/code-tour.md)
 
 ### The Bureau
 
-The engineering workflow I use across studio projects. Specialists work in separate contexts, reviewers examine their output independently, and interrupted work resumes from saved state and artifacts. Used internally; not packaged as a self-service product.
+I use the Bureau for engineering work across studio projects. Specialists work in separate contexts, with independent reviews of their output. Runs save their state and files so work can resume after an interruption. Used internally; not packaged as a self-service product.
 
 [Code and workflow](https://github.com/Novadiem-Studio/bureau) · [Review tour](https://github.com/Novadiem-Studio/bureau/blob/main/docs/checkpoint-review-tour.md) · [Case study](https://novadiem.com/work-bureau)
 
@@ -26,7 +26,7 @@ Production software that turns recipes into Canadian nutrition labels using gove
 
 ### GrowOperative and FOAF
 
-Local-food exchange built around trusted relationships and mutual credit. I designed the original system and led its early development, then took over direct development and rebuilt the platform. The FOAF Ruby service implements the underlying credit ledger; the broader protocol remains in development.
+A local-food exchange using trusted relationships and mutual credit. I designed the original system and led the early development team. Later, I took over the development work and rebuilt the platform. The FOAF Ruby service implements the credit ledger; the broader protocol remains in development.
 
 [Product](https://growoperative.app) · [Protocol code](https://github.com/FOAF-Foundation/foaf-protocol-ruby) · [Case study](https://novadiem.com/work-growoperative)
 
