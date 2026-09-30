@@ -1,20 +1,24 @@
 # Robin Goodwin
 
-I'm a senior full-stack developer based in British Columbia, Canada, and the founder of [Novadiem Studio](https://novadiem.com). I build web applications and developer tools, including systems for working with AI agents.
+I'm a senior full-stack developer based in British Columbia, Canada, and the founder of [Novadiem Studio](https://novadiem.com). I build production web applications and tools for agent-assisted work.
 
-I've worked in software for more than 25 years and was the first developer on MyFonts.com. I design systems, write code and keep them running. My recent agent projects save records and decisions in files or databases, with explicit limits on what agents can do.
+I've worked in software for more than 25 years and was the first developer on MyFonts.com. I design systems, write code and keep them running. My recent agent projects use durable records, isolated workspaces or review contexts, and explicit access boundaries.
 
 ## Selected work
 
 ### rheoStream
 
-A framework for agent-assisted work. It stores jobs and module-owned records in Postgres. Scoped tools and memory permissions limit what agents can access. The core and Recallatron memory module are implemented; other product modules are still stubs.
+Self-hosted agent workflows with one Postgres database per workspace, leased background jobs and a transactional outbox. Web and MCP clients share the same service boundary. Recallatron stores memory that can be corrected and superseded, with hybrid retrieval using local embeddings. Redaction controls what reaches a model; private workspace data stays outside the public repository.
+
+The core and Recallatron are implemented. Leads, Current and Relationships remain stubs. Job enqueue crosses two databases without a shared transaction; a missed scheduling mark can delay work until reconciliation.
 
 [Code and status](https://github.com/rheos/rheostream) · [Architecture tour](https://github.com/rheos/rheostream/blob/main/docs/architecture/code-tour.md)
 
 ### The Bureau
 
-I use the Bureau for engineering work across studio projects. Specialists work in separate contexts, with independent reviews of their output. Runs save their state and files so work can resume after an interruption. Used internally; not packaged as a self-service product.
+Multi-agent engineering with cold review in isolated contexts. Reviewers receive evidence packets without the conversation that produced the work. Artifact hashes bind responses to the reviewed files; coverage checks flag missing documents and claims to have read unstaged files. Run state, decisions and handoffs persist on disk so work can resume after an interruption.
+
+This is the internal system I use across studio projects, published for inspection. It is not a supported self-serve product and has no open-source license. The checks validate reported review coverage, not whether a model understood the evidence or reached a sound verdict.
 
 [Code and workflow](https://github.com/Novadiem-Studio/bureau) · [Review tour](https://github.com/Novadiem-Studio/bureau/blob/main/docs/checkpoint-review-tour.md) · [Case study](https://novadiem.com/work-bureau)
 
